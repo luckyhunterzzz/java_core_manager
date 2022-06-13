@@ -47,10 +47,10 @@ public class TodosTests {
     @Test
     public void getAllTasksTest() {
         //given
-        String task1 = "Кальян";
-        String task2 = "Арбуз";
-        String task3 = "Яблоко";
-        String expected = "Арбуз Кальян Яблоко ";
+        String task1 = "Собака";
+        String task2 = "Кошка";
+        String task3 = "Хомячок";
+        String expected = "Кошка Собака Хомячок ";
 
         //when
         sut.addTask(task1);
